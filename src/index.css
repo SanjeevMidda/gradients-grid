@@ -1,0 +1,58 @@
+* {
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  padding: 0px;
+  color: black;
+  transition: all 800ms;
+  /* border: 1px solid black; */
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  height: 100dvh;
+  /* background-color: black; */
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainContainer {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 5px;
+}
+
+.color {
+  width: 80px;
+  height: 80px;
+}
+
+.color:hover {
+  transform: scale(1.2);
+}
+
+.circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid orangered;
+  transform: translateY(200px);
+}
+
+h1 {
+  transform: translateY(-220px);
+}
+
+span {
+  color: orange;
+}
