@@ -10,7 +10,7 @@
 
 .App {
   display: flex;
-  justify-content: center;
+  justify-content: end;
   height: 100dvh;
   /* background-color: black; */
   flex-direction: column;
